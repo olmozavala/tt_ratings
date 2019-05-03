@@ -55,8 +55,8 @@ function connectDB()
     $user = "aquigaza_fsuttra";
     $pw = "4Y=.aP8JZgdd78=S";
     $database = "aquigaza_fsutt_local";
-//    $server="localhost";
-    $server="aquigaza.com";
+    $server="localhost"; // This is for the server
+//    $server="aquigaza.com";
 
 	$con = mysqli_connect($server,$user,$pw,$database);
 
